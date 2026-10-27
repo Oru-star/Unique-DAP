@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "fpc_screen") (type "KiCad") (uri "C:/Users/tanma/Downloads/Unique DAP/ASSETS/FH34SRJ-10S-0.5SH_50_/fpc_screen.pretty") (options "") (descr ""))
+)
