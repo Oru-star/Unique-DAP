@@ -1,4 +1,8 @@
 (sym_lib_table
 	(version 7)
 	(lib (name "Espressif") (type "KiCad") (uri "C:/Users/tanma/Downloads/Unique DAP/ASSETS/Espressif.kicad_sym") (options "") (descr ""))
+	(lib (name "TPS63021DSJR") (type "KiCad") (uri "C:/Users/tanma/Downloads/Unique DAP/ASSETS/ul_TPS63021DSJR/KiCADv6/TPS63021DSJR.kicad_sym") (options "") (descr ""))
+	(lib (name "ES9038Q2M") (type "KiCad") (uri "C:/Users/tanma/Downloads/Unique DAP/ASSETS/LIB_ES9038Q2M/ES9038Q2M/KiCad/ES9038Q2M.kicad_sym") (options "") (descr ""))
+	(lib (name "TPS61023DRLR") (type "KiCad") (uri "C:/Users/tanma/Downloads/Unique DAP/ASSETS/TPS61023DRLR/TPS61023DRLR.kicad_sym") (options "") (descr ""))
+	(lib (name "MAX97220AETE_T") (type "KiCad") (uri "C:/Users/tanma/Downloads/Unique DAP/ASSETS/MAX97220AETE+T/MAX97220AETE_T.kicad_sym") (options "") (descr ""))
 )
