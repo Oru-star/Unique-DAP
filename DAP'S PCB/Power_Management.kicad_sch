@@ -3708,6 +3708,10 @@
 		(uuid "fad7aa61-4565-4f56-baaf-235f8dce7a52")
 	)
 	(no_connect
+		(at 252.73 154.94)
+		(uuid "230a0aa3-d8c6-4531-a920-9844638ed8e7")
+	)
+	(no_connect
 		(at 171.45 88.9)
 		(uuid "271823a1-dc6d-4cb9-bf18-419115789082")
 	)
@@ -6051,7 +6055,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 135.89 110.998 90)
 			(hide yes)
 			(show_name no)
@@ -6131,7 +6135,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 213.36 103.1748 0)
 			(hide yes)
 			(show_name no)
@@ -6289,7 +6293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 56.8452 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -6347,7 +6351,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1caed3da-e0fb-432a-88c0-2c720bffe579")
 		(property "Reference" "#PWR030"
 			(at 226.06 110.49 0)
@@ -6361,7 +6364,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 226.06 107.95 0)
+			(at 226.06 107.696 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6523,7 +6526,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 186.69 156.718 90)
 			(hide yes)
 			(show_name no)
@@ -6604,7 +6607,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 189.23 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6686,7 +6689,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 187.96 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6898,7 +6901,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "28ec73f3-fa45-49b3-85a0-e3fe33e5cc23")
 		(property "Reference" "#PWR026"
 			(at 215.9 81.28 0)
@@ -6912,7 +6914,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 78.74 0)
+			(at 215.9 78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7146,7 +7148,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 138.43 108.458 90)
 			(hide yes)
 			(show_name no)
@@ -7227,7 +7229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 51.7652 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -7306,7 +7308,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 213.36 126.0348 0)
 			(hide yes)
 			(show_name no)
@@ -7695,7 +7697,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 113.03 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -7753,7 +7755,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4a03b480-b635-48c6-a83c-fa9d8db3bccd")
 		(property "Reference" "#PWR014"
 			(at 135.89 124.46 0)
@@ -7767,12 +7768,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 123.19 0)
+			(at 135.89 121.412 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 			)
 		)
@@ -7852,7 +7853,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 163.83 152.7048 0)
 			(hide yes)
 			(show_name no)
@@ -8154,7 +8155,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 261.112 152.146 0)
+			(at 259.08 153.162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8318,7 +8319,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 21.2852 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -8397,7 +8398,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 213.36 108.2548 0)
 			(hide yes)
 			(show_name no)
@@ -8553,7 +8554,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 213.36 113.3348 0)
 			(hide yes)
 			(show_name no)
@@ -8634,7 +8635,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-100_14x14mm_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 73.66 127.762 90)
 			(hide yes)
 			(show_name no)
@@ -8715,7 +8716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 83.5152 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -8850,7 +8851,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6f6077cf-6b4a-468e-b509-872dcaec6f7a")
 		(property "Reference" "#PWR028"
 			(at 217.17 133.35 0)
@@ -8864,7 +8864,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 217.17 130.81 0)
+			(at 217.17 130.556 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9028,7 +9028,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TUSB320LAIRWBR:RWB0012A_TEX"
 			(at 191.77 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -9216,7 +9216,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 146.05 126.238 90)
 			(hide yes)
 			(show_name no)
@@ -9297,7 +9297,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 254.9652 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -9376,7 +9376,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 142.24 119.888 90)
 			(hide yes)
 			(show_name no)
@@ -9611,7 +9611,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 213.36 73.9648 0)
 			(hide yes)
 			(show_name no)
@@ -9811,7 +9811,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 138.43 100.838 90)
 			(hide yes)
 			(show_name no)
@@ -9969,7 +9969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 66.802 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -10027,7 +10027,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ac43c5e9-0abc-47be-8153-441ea84bc7ee")
 		(property "Reference" "#PWR027"
 			(at 217.17 120.65 0)
@@ -10041,7 +10040,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 217.17 118.11 0)
+			(at 217.17 117.856 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10127,7 +10126,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 92.71 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -10253,7 +10252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 179.832 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -10334,7 +10333,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 61.9252 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -10414,7 +10413,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 213.36 89.2048 0)
 			(hide yes)
 			(show_name no)
@@ -10493,7 +10492,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 33.02 128.778 90)
 			(hide yes)
 			(show_name no)
@@ -10572,7 +10571,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 179.07 93.218 90)
 			(hide yes)
 			(show_name no)
@@ -10806,7 +10805,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 148.59 87.9348 0)
 			(hide yes)
 			(show_name no)
@@ -10887,7 +10886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 44.1452 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -11036,7 +11035,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.178 144.018 0)
+			(at 152.4 146.812 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11123,7 +11122,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_DPDT_Finder_30.22"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 72.39 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -11282,7 +11281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 169.672 130.81 90)
 			(hide yes)
 			(show_name no)
@@ -11340,7 +11339,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "efe72e13-3e24-46ff-bf91-689d85693da7")
 		(property "Reference" "#PWR029"
 			(at 222.25 115.57 0)
@@ -11354,7 +11352,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 222.25 113.03 0)
+			(at 222.25 112.776 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11439,7 +11437,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 157.48 155.2448 0)
 			(hide yes)
 			(show_name no)
@@ -11595,7 +11593,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 106.68 116.078 90)
 			(hide yes)
 			(show_name no)

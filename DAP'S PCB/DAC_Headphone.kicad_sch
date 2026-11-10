@@ -1953,6 +1953,12 @@
 		(uuid "89353d34-9d83-4525-86ee-1ac18722703d")
 	)
 	(junction
+		(at 121.92 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98aaea0f-9a78-4a89-9f22-7f66d80959dd")
+	)
+	(junction
 		(at 234.95 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1981,6 +1987,54 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cfd30a10-af5f-4da4-971f-a017361c2a05")
+	)
+	(no_connect
+		(at 116.84 59.69)
+		(uuid "1bb09ce2-4557-4655-81e7-a70ad48420a8")
+	)
+	(no_connect
+		(at 99.06 92.71)
+		(uuid "24c92bcd-cf5d-40d4-8d6c-201d4613a999")
+	)
+	(no_connect
+		(at 99.06 85.09)
+		(uuid "3165f28e-06e2-4d3a-a235-53486a04aaa5")
+	)
+	(no_connect
+		(at 99.06 90.17)
+		(uuid "752181c6-4c0a-4800-9d37-8950a7f93f54")
+	)
+	(no_connect
+		(at 134.62 100.33)
+		(uuid "756aa649-345c-4106-a090-0ce0056acefd")
+	)
+	(no_connect
+		(at 99.06 87.63)
+		(uuid "b8f59151-51f4-4ae6-a7b1-6b3389b96382")
+	)
+	(no_connect
+		(at 134.62 97.79)
+		(uuid "eb858fa7-7a05-4e5b-b8ac-7594d0a390bd")
+	)
+	(wire
+		(pts
+			(xy 106.68 58.42) (xy 109.22 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03b8bd2d-a546-4c10-99b4-0df553fb01ff")
+	)
+	(wire
+		(pts
+			(xy 121.92 139.7) (xy 124.46 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05b72aac-ae19-43c8-93b8-df23fe95b5fd")
 	)
 	(wire
 		(pts
@@ -2164,7 +2218,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 77.47) (xy 151.13 77.47)
+			(xy 149.86 77.47) (xy 154.94 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2314,16 +2368,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 77.47) (xy 85.09 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60a242b7-31a4-493c-869c-3d3a07b808e2")
-	)
-	(wire
-		(pts
 			(xy 233.68 81.28) (xy 246.38 81.28)
 		)
 		(stroke
@@ -2404,6 +2448,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 77.47) (xy 85.09 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cf3b7ea-bd04-4ee8-bca8-40c4ea8d2fe3")
+	)
+	(wire
+		(pts
 			(xy 194.31 90.17) (xy 195.58 90.17)
 		)
 		(stroke
@@ -2481,16 +2535,6 @@
 			(type default)
 		)
 		(uuid "7fb63926-8b92-429e-8040-652c854ed4a1")
-	)
-	(wire
-		(pts
-			(xy 115.57 41.91) (xy 119.38 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81928dbb-bc96-4f90-84f6-a3003929809d")
 	)
 	(wire
 		(pts
@@ -2664,7 +2708,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 85.09) (xy 135.89 85.09)
+			(xy 134.62 85.09) (xy 138.43 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2701,6 +2745,16 @@
 			(type default)
 		)
 		(uuid "b7fc9542-1dc7-41d8-a480-52cb55b5edc7")
+	)
+	(wire
+		(pts
+			(xy 110.49 54.61) (xy 111.76 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b822d20f-d342-49ed-9ef8-9825d3c4e7d2")
 	)
 	(wire
 		(pts
@@ -2814,13 +2868,23 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 139.7) (xy 124.46 139.7)
+			(xy 119.38 139.7) (xy 121.92 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cc350de2-3523-490c-8987-aad2db55bfe6")
+	)
+	(wire
+		(pts
+			(xy 104.14 41.91) (xy 119.38 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf828ce5-7279-43bd-823e-dc12c458fe46")
 	)
 	(wire
 		(pts
@@ -2864,7 +2928,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 58.42) (xy 111.76 59.69)
+			(xy 111.76 54.61) (xy 111.76 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3172,30 +3236,6 @@
 		)
 		(uuid "f6ca7828-dde2-4121-aa07-f55026cc598d")
 	)
-	(global_label "DAC_AGND"
-		(shape input)
-		(at 111.76 58.42 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "02cdaa58-87fb-4e57-8738-a00589c7a774")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.76 45.8795 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "+5V_AUD"
 		(shape input)
 		(at 233.68 90.17 0)
@@ -3222,30 +3262,6 @@
 	)
 	(global_label "DAC_DGND"
 		(shape input)
-		(at 135.89 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1c22927d-48e6-4c66-a5ce-e30616edbc4d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.6119 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "DAC_DGND"
-		(shape input)
 		(at 170.18 111.76 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3257,30 +3273,6 @@
 		(uuid "1e27c4a3-0c33-4beb-a0f2-382eb18778cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 182.9019 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "DAC_DGND"
-		(shape input)
-		(at 109.22 58.42 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "24385474-4d94-42d7-83d4-2b73b59cd11a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.22 45.6981 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3337,30 +3329,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "DAC_AGND"
-		(shape input)
-		(at 115.57 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7634d7b8-3b01-4b78-862a-1a23ad4898b9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.0295 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -3436,30 +3404,6 @@
 			)
 		)
 	)
-	(global_label "DAC_AGND"
-		(shape input)
-		(at 83.82 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "90186db4-a235-41c0-bfd5-11c8a11ae4d3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.2795 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "+5V_AUD"
 		(shape input)
 		(at 233.68 80.01 0)
@@ -3532,54 +3476,6 @@
 			)
 		)
 	)
-	(global_label "DAC_DGND"
-		(shape input)
-		(at 119.38 119.38 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c2708904-879c-48c0-b1fd-ca6deebc279e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 132.1019 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "DAC_AGND"
-		(shape input)
-		(at 83.82 77.47 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c30a0c27-eb09-4fda-9459-f50d46c8ea05")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.2795 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "DAC_BCLK"
 		(shape input)
 		(at 135.89 90.17 0)
@@ -3625,54 +3521,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "DAC_DGND"
-		(shape input)
-		(at 151.13 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dba26d51-625e-4436-9aca-1e06fa5017bc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.8519 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "DAC_AGND"
-		(shape input)
-		(at 111.76 119.38 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f14fc095-5b20-4608-b95a-517c9eea6c1d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.76 131.9205 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -3810,7 +3658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 248.412 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -3891,7 +3739,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 139.192 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -4047,7 +3895,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 199.39 89.408 90)
 			(hide yes)
 			(show_name no)
@@ -4126,7 +3974,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 92.71 104.4448 0)
 			(hide yes)
 			(show_name no)
@@ -4176,6 +4024,83 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 154.94 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1765ad3e-778b-4fa5-8b2a-165af80a4be4")
+		(property "Reference" "#PWR088"
+			(at 154.94 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 80.772 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5936090c-d9ee-458b-8e0d-c8bbe4aef8ae")
+		)
+		(instances
+			(project "DAP'S PCB"
+				(path "/fb5fe735-4b09-406c-bdd6-5f5ea1296721/5540fb09-da93-4516-aa2a-76196c5f7523"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 83.82 105.41 0)
 		(unit 1)
 		(body_style 1)
@@ -4197,7 +4122,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.042 107.95 0)
+			(at 83.82 108.966 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4252,6 +4177,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 106.68 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "19f6d910-b409-4017-9e71-942be924180f")
+		(property "Reference" "#PWR086"
+			(at 106.68 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 103.632 61.468 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "535b08d7-1d61-482c-82a9-df04d875ec98")
+		)
+		(instances
+			(project "DAP'S PCB"
+				(path "/fb5fe735-4b09-406c-bdd6-5f5ea1296721/5540fb09-da93-4516-aa2a-76196c5f7523"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 191.77 82.55 90)
 		(unit 1)
@@ -4282,7 +4284,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 195.58 81.5848 0)
 			(hide yes)
 			(show_name no)
@@ -4440,7 +4442,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 86.36 81.5848 0)
 			(hide yes)
 			(show_name no)
@@ -4521,7 +4523,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 117.8052 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -4600,7 +4602,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 238.76 84.328 90)
 			(hide yes)
 			(show_name no)
@@ -4679,7 +4681,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 238.76 74.168 90)
 			(hide yes)
 			(show_name no)
@@ -4760,7 +4762,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 136.652 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -4908,7 +4910,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 196.088 66.04 0)
+			(at 198.12 66.802 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5326,7 +5328,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 161.798 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -5405,7 +5407,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 254 84.1248 0)
 			(hide yes)
 			(show_name no)
@@ -5486,7 +5488,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 112.7252 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5606,6 +5608,84 @@
 			(project "DAP'S PCB"
 				(path "/fb5fe735-4b09-406c-bdd6-5f5ea1296721/5540fb09-da93-4516-aa2a-76196c5f7523"
 					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "587a5fb0-71a3-4f19-8eab-c0c27fd7c9e9")
+		(property "Reference" "#PWR085"
+			(at 104.14 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "031fab94-e42a-44b1-abb6-91955682dded")
+		)
+		(instances
+			(project "DAP'S PCB"
+				(path "/fb5fe735-4b09-406c-bdd6-5f5ea1296721/5540fb09-da93-4516-aa2a-76196c5f7523"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -5846,6 +5926,239 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 138.43 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "74aa06b4-3283-428b-b357-95b42e94347a")
+		(property "Reference" "#PWR081"
+			(at 138.43 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3311613-b493-4a97-9182-75eb29fb9bcb")
+		)
+		(instances
+			(project "DAP'S PCB"
+				(path "/fb5fe735-4b09-406c-bdd6-5f5ea1296721/5540fb09-da93-4516-aa2a-76196c5f7523"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d01d236-9a7e-46c3-ab21-f98f688cf582")
+		(property "Reference" "#PWR084"
+			(at 60.96 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88948a17-3d7d-4680-963b-5adf7a6f181e")
+		)
+		(instances
+			(project "DAP'S PCB"
+				(path "/fb5fe735-4b09-406c-bdd6-5f5ea1296721/5540fb09-da93-4516-aa2a-76196c5f7523"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.76 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f6ff634-b470-4527-9ffb-c61cb5473260")
+		(property "Reference" "#PWR082"
+			(at 111.76 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e3b7550-d481-4e54-bd0a-7e877c12db54")
+		)
+		(instances
+			(project "DAP'S PCB"
+				(path "/fb5fe735-4b09-406c-bdd6-5f5ea1296721/5540fb09-da93-4516-aa2a-76196c5f7523"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 194.31 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -6029,7 +6342,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 254 79.0448 0)
 			(hide yes)
 			(show_name no)
@@ -6108,7 +6421,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 201.93 79.0448 0)
 			(hide yes)
 			(show_name no)
@@ -6187,7 +6500,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 199.39 91.948 90)
 			(hide yes)
 			(show_name no)
@@ -6345,7 +6658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 125.4252 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6501,7 +6814,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 146.05 79.248 90)
 			(hide yes)
 			(show_name no)
@@ -6582,7 +6895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 233.3752 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6866,6 +7179,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 110.49 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b79c3a75-d9e8-48dd-9f44-42563ded18da")
+		(property "Reference" "#PWR087"
+			(at 110.49 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 57.912 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d984871-3b43-4421-85e0-659fc1f1fd3b")
+		)
+		(instances
+			(project "DAP'S PCB"
+				(path "/fb5fe735-4b09-406c-bdd6-5f5ea1296721/5540fb09-da93-4516-aa2a-76196c5f7523"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Oscillator:ASE-xxxMHz")
 		(at 170.18 102.87 0)
 		(unit 1)
@@ -6982,7 +7372,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 186.69 90.678 90)
 			(hide yes)
 			(show_name no)
@@ -7061,7 +7451,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 165.1 88.138 90)
 			(hide yes)
 			(show_name no)
@@ -7110,6 +7500,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 121.92 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c45b0210-4060-4847-a434-77efaa095b09")
+		(property "Reference" "#PWR083"
+			(at 121.92 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 141.478 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dc17918b-9f35-44e4-a4fe-29c6c06e16a5")
+		)
+		(instances
+			(project "DAP'S PCB"
+				(path "/fb5fe735-4b09-406c-bdd6-5f5ea1296721/5540fb09-da93-4516-aa2a-76196c5f7523"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 119.38 45.72 0)
 		(unit 1)
@@ -7142,7 +7609,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 120.3452 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -7300,7 +7767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 205.4352 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7448,7 +7915,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.148 115.316 0)
+			(at 170.18 116.332 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7535,7 +8002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 73.66 79.0448 0)
 			(hide yes)
 			(show_name no)
@@ -7616,7 +8083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 96.52 94.2848 0)
 			(hide yes)
 			(show_name no)
@@ -8005,7 +8472,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 86.36 96.8248 0)
 			(hide yes)
 			(show_name no)
@@ -8086,7 +8553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 126.6952 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8165,7 +8632,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 85.09 78.4352 0)
 			(hide yes)
 			(show_name no)
@@ -8244,7 +8711,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 238.76 76.708 90)
 			(hide yes)
 			(show_name no)
@@ -8477,7 +8944,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 238.76 79.248 90)
 			(hide yes)
 			(show_name no)

@@ -667,10 +667,10 @@
 		)
 	)
 	(junction
-		(at 118.11 100.33)
+		(at 134.62 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5b1f240f-62fc-47a3-8060-f8bd2a1bcdd3")
+		(uuid "3fb0d697-e32b-45bc-bafc-dccd6c51ccd8")
 	)
 	(junction
 		(at 127 97.79)
@@ -696,16 +696,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 95.25) (xy 134.62 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14624ab2-1ba0-48b8-bb07-6da10f266460")
-	)
-	(wire
-		(pts
 			(xy 133.35 85.09) (xy 134.62 85.09)
 		)
 		(stroke
@@ -726,16 +716,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 100.33) (xy 134.62 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b995ed2-f221-4f52-ab80-e5c5fd760de5")
-	)
-	(wire
-		(pts
 			(xy 133.35 105.41) (xy 134.62 105.41)
 		)
 		(stroke
@@ -743,6 +723,16 @@
 			(type default)
 		)
 		(uuid "3cc33bfc-9456-4cba-9216-9e8a0242bfa1")
+	)
+	(wire
+		(pts
+			(xy 134.62 107.95) (xy 134.62 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3efb4720-c90d-41e2-add3-bfb23ddf98d5")
 	)
 	(wire
 		(pts
@@ -776,6 +766,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 95.25) (xy 134.62 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aa65666-c296-4fa8-9dfa-7691c07064bb")
+	)
+	(wire
+		(pts
 			(xy 96.52 92.71) (xy 134.62 92.71)
 		)
 		(stroke
@@ -783,16 +783,6 @@
 			(type default)
 		)
 		(uuid "67b96d6c-ffda-4a34-8c66-aec859bd56de")
-	)
-	(wire
-		(pts
-			(xy 118.11 107.95) (xy 118.11 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "711d10b6-a1b6-414a-ba3f-23fb8e2567bd")
 	)
 	(wire
 		(pts
@@ -806,7 +796,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 100.33) (xy 118.11 100.33)
+			(xy 115.57 100.33) (xy 134.62 100.33)
 		)
 		(stroke
 			(width 0)
@@ -836,6 +826,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 95.25) (xy 104.14 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6f2fc17-db81-41f5-a092-1c41685e45b1")
+	)
+	(wire
+		(pts
 			(xy 127 105.41) (xy 127 106.68)
 		)
 		(stroke
@@ -843,6 +843,16 @@
 			(type default)
 		)
 		(uuid "e9dadb9c-a699-4c56-810e-782680cd2b10")
+	)
+	(wire
+		(pts
+			(xy 104.14 107.95) (xy 134.62 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdc29890-a6f6-4460-a5ec-ca4c6cd13746")
 	)
 	(global_label "+5V_LCD"
 		(shape input)
@@ -1330,7 +1340,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 127.9652 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -1488,7 +1498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 97.4852 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -1538,7 +1548,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 118.11 104.14 0)
+		(at 104.14 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1548,7 +1558,7 @@
 		(dnp no)
 		(uuid "ded400ba-9942-41d4-af0c-f9413ae7cbc3")
 		(property "Reference" "C34"
-			(at 120.396 102.9971 0)
+			(at 106.426 102.9971 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1559,7 +1569,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 120.396 104.902 0)
+			(at 106.426 104.902 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1569,8 +1579,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 119.0752 107.95 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 105.1052 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1581,7 +1591,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 104.14 0)
+			(at 104.14 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1592,7 +1602,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 118.11 104.14 0)
+			(at 104.14 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1690,83 +1700,6 @@
 			(project "DAP'S PCB"
 				(path "/fb5fe735-4b09-406c-bdd6-5f5ea1296721/f3a818fd-6aa2-420a-8122-cced23168644"
 					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 118.11 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f9dab46a-213d-4c05-a199-100bc02a847d")
-		(property "Reference" "#PWR070"
-			(at 118.11 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 118.11 112.522 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c9c4a86d-fd3b-4369-b6c5-23c183b5aded")
-		)
-		(instances
-			(project "DAP'S PCB"
-				(path "/fb5fe735-4b09-406c-bdd6-5f5ea1296721/f3a818fd-6aa2-420a-8122-cced23168644"
-					(reference "#PWR070")
 					(unit 1)
 				)
 			)
