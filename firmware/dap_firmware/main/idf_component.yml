@@ -1,0 +1,2 @@
+dependencies:
+  esphome/micro-flac: "^0.3.0"
