@@ -524,7 +524,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerbers/",
       "specctra_dsn": "",
       "step": "../DAP'S PCB.step",
       "vrml": ""
@@ -661,7 +661,7 @@
         "uuid": "fb5fe735-4b09-406c-bdd6-5f5ea1296721"
       }
     ],
-    "used_designators": "U1-6,L1-3,#PWR1-88,J1-4,#FLG1-4,R1-27,SW2\\-BOOT1,C1-39,SW1-6,IC1,Y1,FB1",
+    "used_designators": "U1-6,L1-3,#PWR1-94,J1-6,#FLG1-4,R1-29,SW2\\-BOOT1,C1-39,SW1-6,IC1,Y1,FB1",
     "variants": []
   },
   "sheets": [
