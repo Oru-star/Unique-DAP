@@ -1,66 +1,81 @@
-# DAP — Procurement BOM
+# Unique DAP
 
-**BOM revision:** 11 November 2026  
-**Status:** Engineering-review procurement list — **not yet released for fabrication or bulk purchasing**.
+Unique Dap is An ESP32-S3-based audio player , which uses a unique Sharp reflective memory display instead of normal lcd pannel ,it has a dedicated audio DAC and headphone amplifier built in itself , and removable microSD storage and it can be navigated using the two rotary encoders at the bottom and charges using the type c port below 
 
-This repository BOM records the parts identified from the current KiCad schematic and footprint-assignment inventory. It includes the Sharp display, audio DAC and headphone amplifier, power-management ICs, ESP32-S3 module, connectors, passives, oscillator, and the newly assigned microSD socket and 128 GB card.
 
-## BOM files
 
-The [BOM CSV](./Bom.csv) contains the detailed procurement data.
+<p align="center">
+  <img src="RENDERS'n'Images/HOME4.png" alt="Three-quarter render of the Unique DAP enclosure" width="800">
+</p>
 
-## Added microSD storage
+## Project at a glance
 
-| RefDes | Item | Manufacturer / MPN | KiCad footprint | Qty |
-|---|---|---|---|---:|
-| J6 | microSD socket, right-angle SMT, push-push, top-mount | Hirose `DM3AT-SF-PEJM5` | `Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5` | 1 |
-| SD1 | 128 GB microSDXC UHS-I card | SanDisk `SDSQUAB-128G-GN6MN` | Removable media; not mounted on PCB | 1 |
+- **Controller:** ESP32-S3 module
+- **Audio:** ES9038Q2M DAC and MAX97220A headphone amplifier
+- **Display:** Sharp 3.16-inch reflective memory LCD
+- **Storage:** microSD socket with a 128 GB card 
+- **Design files:** KiCad PCB and schematics, Gerbers, and printable enclosure parts
 
-### J6 — Hirose DM3AT-SF-PEJM5
+## Repository contents
 
-- [Manufacturer product page, drawings and STEP model](https://www.hirose.com/en/product/p/CL0609-0031-0-00)
-- [DigiKey India listing](https://www.digikey.in/en/products/detail/hirose-electric-co-ltd/DM3AT-SF-PEJM5/2533565)
-- [KiCad Connector_Card footprint library](https://kicad.github.io/footprints/Connector_Card.html)
-- DigiKey price snapshot: **₹339.20 each**; inventory and lead time must be reconfirmed at checkout.
-- Hirose describes this connector as a push-push socket with a card-detection switch. The DAP's earlier requirement was **no card-detect function**. Do not wire the switch merely because the connector has it: verify the schematic symbol-to-footprint pad mapping and leave detection unused unless the requirement changes.
-- Hirose provides an exact STEP model in a ZIP on its product page. The published KiCad `Connector_Card` 3D package lists a `DM3D-SF` model, not this exact `DM3AT-SF-PEJM5` model. Use the Hirose STEP file for accurate enclosure/mechanical checking; do not substitute a visually similar connector model.
+| Resource | Description |
+|---|---|
+| [KiCad PCB](<DAP'S PCB/DAP'S PCB.kicad_pcb>) | Main board layout |
+| [KiCad schematic](<DAP'S PCB/DAP'S PCB.kicad_sch>) | Main circuit schematic |
+| [Gerber files](./Gerbers/) | For pcb manufacturing  |
+| [Printable enclosure parts](<steps/Stl for prints/>) | For printing the project |
 
-### SD1 — 128 GB microSDXC
 
-- Selected candidate: SanDisk Ultra `SDSQUAB-128G-GN6MN`.
-- [SanDisk India product specifications](https://www.sandisk.com/en-in/products/memory-cards/microsd-cards/sandisk-ultra-uhs-i-microsd?sku=SDSQUAB-128G-GN6MN)
-- [MDComputers listing](https://mdcomputers.in/product/mobile-accessories/memory-card/sandisk-ultra-microsd-card-sdsquab-128g-gn6mn)
-- Price snapshot: **₹2,578**; check current availability, seller and warranty before purchase.
-- SanDisk specifies microSDXC, UHS-I and up to 140 MB/s read performance. The high advertised transfer rate is not required for audio playback; reliable media and filesystem compatibility matter more.
-- A 128 GB card is SDXC. Verify the ESP32-S3 firmware filesystem supports the card's format (commonly exFAT from factory) or define and test a supported FAT32 formatting workflow. Test the full usable capacity and long FLAC/WAV playback.
 
-## Procurement snapshot
+## DAP's images 
 
-The workbook summary calculates the priced subtotal from line items with captured unit prices. It is **not** a landed-cost quotation and excludes taxes not shown by the supplier, shipping, customs/import duties, PCB fabrication, assembly and any rows without a captured price. Stock and prices are time-sensitive; recheck them before checkout.
+### Enclosure
 
-## Engineering holds before ordering/fabrication
+<p align="center">
+  <img src="RENDERS'n'Images/TOP.png" alt="Top view of the DAP enclosure and display" width="700">
+</p>
+<p align="center"><em>Top view</em></p>
 
-1. **L1/L2/L3 power inductors:** the current footprint inventory shows 0805 footprints, while the selected power-inductor candidates use larger power packages. Update footprints and revalidate saturation current, RMS current, DCR, thermal rise and converter layout before ordering.
-2. **U4 TUSB320LAIRWBR:** pad dimensions were changed during DRC cleanup. Recheck against TI's recommended land pattern, solder-mask web and the PCB fabricator's capability before release.
-3. **U3 BQ25895:** confirm TS/NTC arrangement, charge-current setting, battery protection and thermal design.
-4. **Y1 / ES9038Q2M:** confirm the master-clock frequency and divider plan for every supported sample rate before finalizing the oscillator.
-5. **U6 ESP32-S3:** confirm the exact WROOM memory suffix and firmware target.
-6. **J4 / Sharp display:** verify FPC contact side, thickness, orientation and exact pin mapping.
-7. **J6 / microSD:** verify Hirose symbol-to-pad numbering, card-detect switch handling, shield pads and mechanical card access.
-8. **Switches and encoders:** resolve symbol/footprint mismatches and confirm exact mechanical variants.
-9. **PCB DRC:** rerun after footprint updates and finish connectivity, unconnected-track/via review, copper-zone checks and final fabrication-rule review.
+<p align="center">
+  <img src="RENDERS'n'Images/SIDE-VIEW.PNG" alt="Front side view showing the USB-C port and controls" width="700">
+</p>
+<p align="center"><em>Front side view</em></p>
 
-## Status meanings
+### PCB
 
-- **BUY** — a candidate part and source price were identified; final design notes still apply.
-- **VERIFY** — confirm one or more electrical, mechanical, firmware, supplier-stock or pricing details.
-- **HOLD** — do not order until the listed design issue is resolved.
+<p align="center">
+  <img src="RENDERS'n'Images/Pcb-Top.png" alt="Top view of the DAP PCB layout" width="600">
+</p>
+<p align="center"><em>PCB top view</em></p>
 
-## Important procurement rule
+<p align="center">
+  <img src="RENDERS'n'Images/Pcb-sideview.png" alt="Side view of the DAP PCB assembly" width="800">
+</p>
+<p align="center"><em>PCB side view</em></p>
 
-Do not order components solely because a footprint has been assigned in KiCad. Verify the exact manufacturer part number, datasheet drawing, pad numbering, package dimensions, electrical ratings and mating/mechanical requirements first.
+## Assembly steps
 
-## Complete BOM
+> **Prototype status:** The BOM still has HOLD and VERIFY items, including incorrectly sized power-inductor footprints. Resolve these design and footprint issues, then rerun KiCad ERC/DRC and update the manufacturing files before ordering or powering the board.
+
+1. **Prepare the parts** —  check exact part numbers and footprints from my repo,the USB-C receptacle port , switches/encoders and display connector. The BOM contains a single PCB design.
+
+2. **Fabricate and inspect the PCB** —  Confirm Gerbers in [`DAP'S PCB/Gerbers`](<DAP'S PCB/Gerbers/>) Check if everything is correct or not and then send it for the fab. Check delivered board for damage, solder-mask defects or any shorts and correct connector openings before assemblling the board .
+3. **Populate the board** — Place the SMD parts and ICs solder them using the hotplate or any similar thing (stencil is recommended), then the through-hole connectors and components , following the board layout . check the solder joints if everything looks correct
+4. **Inspect before anything** — Check for solder bridges and shorts
+5. **check the enclosure** — test if everything is fitting in the enclosure and if anything is not fitting you can even use the tools to make it fit 
+6. **Install the display** — Verify the Sharp LS032B7DD02 flex cable pinout and  orientation, and then carefully connect it with the main pcb 
+7. **Connect storage ** — Insert the microSD card into the sdcard slot we just added and make sure that the sdcard has the firmware flashed already i gave .
+8. **Connect the battery and test power** — turn on the dap and check if everything is working properly as mentioned!!
+
+
+## Bill of materials
+
+Full parts list: [Bom.csv](./Bom.csv).
+
+**Known-priced subtotal: ₹11,412.70 INR** (22 of 38 items priced; excludes unpriced parts, tax, shipping, customs, PCB fabrication and assembly).
+
+<details>
+<summary>Show BOM (38 items)</summary>
 
 | Category | RefDes | Qty | Item / value | Manufacturer | MPN / candidate | Unit price (INR) | Status |
 |---|---|---:|---|---|---|---:|---|
@@ -102,3 +117,5 @@ Do not order components solely because a footprint has been assigned in KiCad. V
 | Battery (off-board) | BAT1 (not a PCB footprint) | 1 | Single-cell 3.7 V Li-Po, 2500 mAh project candidate | WLY (project candidate) | WLY104050 — confirm exact supplier/lead configuration | — | HOLD |
 | microSD card socket | J6 | 1 | microSD socket, SMT right-angle, push-push, top-mount; card-detect switch | Hirose Electric | DM3AT-SF-PEJM5 (CL0609-0031-0-00) | 339.2 | VERIFY |
 | Storage media | SD1 (off-board) | 1 | 128 GB microSDXC UHS-I memory card, Class 10 / U1 / A1; up to 140 MB/s read | SanDisk | SDSQUAB-128G-GN6MN | 2578.0 | VERIFY |
+
+</details>
