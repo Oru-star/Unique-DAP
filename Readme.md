@@ -55,7 +55,7 @@ Unique Dap is An ESP32-S3-based audio player , which uses a unique Sharp reflect
 
 ## Assembly steps
 
-> **Prototype status:** The BOM still has HOLD and VERIFY items, including incorrectly sized power-inductor footprints. Resolve these design and footprint issues, then rerun KiCad ERC/DRC and update the manufacturing files before ordering or powering the board.
+
 
 1. **Prepare the parts** —  check exact part numbers and footprints from my repo,the USB-C receptacle port , switches/encoders and display connector. The BOM contains a single PCB design.
 
